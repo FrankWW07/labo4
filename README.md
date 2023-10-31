@@ -20,3 +20,6 @@ Descripción: Esta función se encarga de buscar un valor en la lista de nodos. 
 
 ### 6. Mostrar la lista a la función stdout (mostrarListaAlStdout)
 Descripción: Esta función se encarga de recorrer la lista y, este muestra cada elemento para la consola del stdout. En la que recibe la dirección del puntero a la cabeza de la lista. Se realiza un bucle while para recorrer toda la lista, y muestra cada elemento con el formato fprintf "valor ->" ; y finalmente le indica "NULL" al final de la lista.
+
+### 7. Obtener el elemento enésimo (obtenerElementoEnesimo)
+Descripción: Esta función se encarga de buscar y luego mostrar el valor de la posición (índice) del nodo de la lista. En la que se recibe la dirección del puntero a la cabeza de la lista y un índice dada. Este solo recorre la lista empezando con el primer elemento y termina hasta el índice especificado, luego muestra la posición de la lista y el valor que se encuentra en esa posición (índice). 
