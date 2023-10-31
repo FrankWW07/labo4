@@ -1,1 +1,1 @@
-# labo4
+# reporte del laboratorio 4: Plataformas abiertas
