@@ -13,3 +13,10 @@ Descripción: Esta función se encarga de eliminar un nodo en específico dado d
 Descripción: Esta función se encarga de agregar un nuevo nodo al inicio de la lista enlazada. En la que recibe la dirección al puntero de la cabeza de la lista, y el nuevo dato a agregar. Este crea un nuevo nodo con el valor dado para añadir, y lo enlaza al inicio de la lista, así termina de enlazar el resto de la lista.
 
 ### 4. Agregar un nodo al final de la lista (agregarNodoAlFinal)
+Descrpción: Esta función es parecido al 1, ya que añade el nuevo nodo al final de la lista enlazada.
+
+### 5. Buscar un nodo por valor (buscarNodoPorValor) 
+Descripción: Esta función se encarga de buscar un valor en la lista de nodos. En la que recibe la dirección del puntero a la cabeza de la lista y el valor a buscar. Este recorre toda la lista, para encontrar el valor dado, este muestra mensaje si este valor existe o no en la lista.
+
+### 6. Mostrar la lista a la función stdout (mostrarListaAlStdout)
+Descripción: Esta función se encarga de recorrer la lista y, este muestra cada elemento para la consola del stdout. En la que recibe la dirección del puntero a la cabeza de la lista. Se realiza un bucle while para recorrer toda la lista, y muestra cada elemento con el formato fprintf "valor ->" ; y finalmente le indica "NULL" al final de la lista.
